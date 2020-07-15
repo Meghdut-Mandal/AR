@@ -34,6 +34,9 @@ dependencies {
     implementation 'androidx.navigation:navigation-ui:2.3.0'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    // Dont update the dependency from 1.15.0 to 17 ..
+    // The 1.17 has a open issue no tyet fixed
     implementation "com.google.ar.sceneform.ux:sceneform-ux:1.15.0"
     implementation 'com.google.ar.sceneform:assets:1.15.0'
     implementation 'com.airbnb.android:lottie:3.4.1'
