@@ -16,8 +16,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:navigationIcon="@drawable/menu"
         app:title="Augumented Reality - Credits " />
-
-    <TextView
+      <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
