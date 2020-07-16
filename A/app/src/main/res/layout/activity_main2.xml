@@ -3,12 +3,14 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/one"
     android:layout_height="match_parent"
     tools:context="com.popit.MainActivity2">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/main_toolbar"
-        android:layout_width="409dp"
+        android:layout_width="0dp"
+        app:titleTextColor="#fff"
         android:layout_height="wrap_content"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
@@ -16,7 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:navigationIcon="@drawable/menu"
-        app:title="Augumented Reality" />
+        app:title="Pop It 3D" />
 
 
     <com.airbnb.lottie.LottieAnimationView
@@ -28,9 +30,7 @@
         app:layout_constraintTop_toBottomOf="@+id/main_toolbar"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"
-        app:lottie_rawRes="@raw/ar"
-       >
-
+        app:lottie_rawRes="@raw/ar">
     </com.airbnb.lottie.LottieAnimationView>
 
     <androidx.constraintlayout.widget.Guideline
@@ -40,13 +40,14 @@
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.57" />
 
-    <EditText
+    <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/model_name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:padding="10dp"
+        android:background="#A4FFFFFF"
         android:inputType="textPersonName"
-        android:text="Name"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toTopOf="@+id/guideline" />
@@ -56,14 +57,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.15" />
+        app:layout_constraintGuide_percent="0.10" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.85" />
+        app:layout_constraintGuide_percent="0.90" />
 
     <Button
         android:id="@+id/preview_model_button"
@@ -71,7 +72,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Preview Model"
-        android:paddingLeft="10dp"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toBottomOf="@+id/model_name" />

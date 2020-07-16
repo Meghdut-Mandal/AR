@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PopIt3D</string>
+    <string name="app_name">Pop It 3D</string>
     <string name="title_activity_a_r">ARActivity</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
