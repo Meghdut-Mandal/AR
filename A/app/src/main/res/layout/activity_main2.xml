@@ -18,7 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:navigationIcon="@drawable/menu"
-        app:title="                  Pop It 3D" />
+        app:title="                  POP IT 3D" />
 
 
     <com.airbnb.lottie.LottieAnimationView
@@ -47,7 +47,7 @@
         android:ems="10"
         android:padding="10dp"
         android:background="#A4FFFFFF"
-        android:inputType="textPersonName"
+        android:hint="Enter the Url"
         app:layout_constraintEnd_toStartOf="@+id/guideline3"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
         app:layout_constraintTop_toTopOf="@+id/guideline" />
