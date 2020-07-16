@@ -1,4 +1,4 @@
-package com.example.a;
+package com.popit;
 
 import android.net.Uri;
 import android.os.Bundle;

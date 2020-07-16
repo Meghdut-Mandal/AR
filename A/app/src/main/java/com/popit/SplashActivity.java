@@ -1,4 +1,4 @@
-package com.example.a;
+package com.popit;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -13,7 +13,7 @@ public class SplashActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         new Thread(() -> {
             try{
-                Thread.sleep(1000l);
+                Thread.sleep(2000l);
                 Intent in = new Intent(SplashActivity.this, MainActivity2.class);
                 startActivity(in);
             } catch (InterruptedException e) {

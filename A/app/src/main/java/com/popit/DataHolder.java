@@ -1,4 +1,4 @@
-package com.example.a;
+package com.popit;
 
 class DataHolder
 {

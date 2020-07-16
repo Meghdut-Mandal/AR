@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">A</string>
+    <string name="app_name">PopIt3D</string>
     <string name="title_activity_a_r">ARActivity</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -9,4 +9,6 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="credits">This app is developed by Maitrish Ghosh \n under the joint supervision of \n
+        Dr. Kaushal Kumar Bhagat and Dr. Andri Ioannou</string>
 </resources>

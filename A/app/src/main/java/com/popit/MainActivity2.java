@@ -1,4 +1,4 @@
-package com.example.a;
+package com.popit;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,7 +6,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.AppCompatButton;
+import androidx.appcompat.widget.Toolbar;
 
 public class MainActivity2 extends AppCompatActivity
 {
@@ -26,6 +26,12 @@ public class MainActivity2 extends AppCompatActivity
             startActivity(in);
         });
 
+        Toolbar toolbar=findViewById(R.id.main_toolbar);
+        setSupportActionBar(toolbar);
 
+        toolbar.setNavigationOnClickListener(v -> {
+            Intent in = new Intent(this, CreaditsActivity.class);
+            startActivity(in);
+        });
     }
 }
