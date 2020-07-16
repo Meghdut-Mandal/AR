@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.popit.CreaditsActivity">
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/credits_toolbar"
         android:layout_width="409dp"
@@ -15,7 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:navigationIcon="@drawable/ic_baseline_arrow_back_24"
-        app:title="Pop It 3D - Credits " />
+        app:title="         Pop It 3D - Credits " />
       <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"

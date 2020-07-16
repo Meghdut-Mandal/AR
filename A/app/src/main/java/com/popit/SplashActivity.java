@@ -13,7 +13,7 @@ public class SplashActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         new Thread(() -> {
             try{
-                Thread.sleep(2000l);
+                Thread.sleep(3500l);
                 Intent in = new Intent(SplashActivity.this, MainActivity2.class);
                 startActivity(in);
                 finish();

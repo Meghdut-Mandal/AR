@@ -72,7 +72,7 @@ public class ARActivity extends AppCompatActivity
         andy.setRenderable(modelRenderable);
         andy.select();
         andy.getScaleController().setMinScale(0.1f);
-        andy.getScaleController().setMaxScale(25.0f);
+        andy.getScaleController().setMaxScale(10.0f);
 
     }
 
